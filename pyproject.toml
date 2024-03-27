@@ -34,7 +34,7 @@ pydantic = {version = "1.10.12", extras = ["dotenv"]}
 click = "^8.1.7"
 
 [tool.poetry.group.llms.dependencies]
-langchain = "^0.0.240"
+langchain = ">=0.0.240,<0.1.1"
 tiktoken = "^0.4.0"
 transformers = "^4.31.0"
 sentence-transformers = "^2.2.2"
