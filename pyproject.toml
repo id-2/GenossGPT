@@ -49,7 +49,7 @@ streamlit = "^1.25.0"
 watchdog = "^3.0.0"
 
 [tool.poetry.group.dev.dependencies]
-black = "^22"
+black = ">=22,<25"
 mypy = "^1.2"
 pre-commit = "^2"
 pytest = "^7"
